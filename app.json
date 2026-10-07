@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Ravoq",
+    "slug": "blockchain-chat",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/brand/ravoq-icon.png",
+    "scheme": "blockchain-chat",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/brand/ravoq-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#101d18"
+    },
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/brand/ravoq-icon.png",
+        "backgroundColor": "#101d18"
+      },
+      "package": "com.rawshanbek.blockchat"
+    },
+    "web": {
+      "favicon": "./assets/brand/ravoq-icon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-router",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "0eb61d5f-5d3f-4d07-96a2-379cc97c323c"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+﻿{
+    "cli":  {
+                "version":  "\u003e= 16.0.0"
+            },
+    "build":  {
+                  "preview":  {
+                                  "android":  {
+                                                  "buildType":  "apk"
+                                              },
+                                  "env":  {
+                                              "RAVOQ_ANDROID_PREVIEW":  "1",
+                                              "EXPO_PUBLIC_API_URL":  ""
+                                          },
+                                  "distribution":  "internal"
+                              },
+                  "production":  {
+                                     "android":  {
+                                                     "buildType":  "app-bundle"
+                                                 },
+                                     "env":  {
+                                                 "EXPO_PUBLIC_API_URL":  "https://blockchain-chat-5qu9.onrender.com"
+                                             }
+                                 }
+              }
+}
